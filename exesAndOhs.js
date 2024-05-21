@@ -9,3 +9,6 @@ function XO(str) {
   }
 
   console.log(XO('xXxxoOm'))
+
+
+  // /x/gi and /o/gi selects both x and X and o and O respectively, no need for ||
