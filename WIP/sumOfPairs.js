@@ -28,7 +28,7 @@ function sumPairs(ints, s) {
         let outputIndex = matchLengths.indexOf(smallestLength);
 
         console.log(outputIndex)
-        return output.slice(outputIndex, outputIndex + 2);
+        return output.slice(outputIndex, outputIndex + 1);
     }
 
     return output || undefined;
